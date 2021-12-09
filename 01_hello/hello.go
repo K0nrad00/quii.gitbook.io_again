@@ -31,4 +31,14 @@ func greetingPrefix(language string) (prefix string) {
 
 func main() {
 	fmt.Println(Hello("klkl", spanish))
+	someRepeat("f")
+
+}
+
+func someRepeat(char string) {
+	empty_str := ""
+	for i := 0; i < 7; i++ {
+		empty_str += char
+	}
+	fmt.Println(empty_str)
 }
